@@ -251,6 +251,34 @@ $(document).ready(function() {
       $("#lose").show(1000);
       window.setTimeout(resetAll,3000);
       }
+      //xA1 vertical loss middle
+          if(xA1==true&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==false&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xA1 diag loss 
+          if(xA1==true&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==true&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==true&&oC2==false&&oC3==false){
+      $("#oA3").show(100);
+      oA3 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xA1 diag block
+          if(xA1==true&&xA2==false&&xA3==false&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==true&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==true){
+      $("#oB1").show(100);
+      oB1 = true;
+      $("#draw").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xA1 vertical loss middle
+          if(xA1==true&&xA2==false&&xA3==false&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==false&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
    });
     
     
@@ -815,6 +843,34 @@ $(document).ready(function() {
          $("#draw").show(1000);
       window.setTimeout(resetAll,3000);
        }
+      //xA3 diag block
+      if(xA1==false&&xA2==false&&xA3==true&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==true&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==true&&oC2==false&&oC3==false){
+      $("#oB3").show(100);
+      oB3 = true;
+      $("#draw").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xA3 vertical loss middle
+          if(xA1==false&&xA2==false&&xA3==true&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==false&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xA3 vertical loss middle
+          if(xA1==false&&xA2==false&&xA3==true&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==false&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xA3 diag loss
+          if(xA1==false&&xA2==false&&xA3==true&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==true&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==true){
+      $("#oA1").show(100);
+      oA1 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
    });
     
     
@@ -1142,6 +1198,25 @@ $(document).ready(function() {
       $("#oB3").show(100);
       oB3 = true;
      }
+      //B1 and C3
+      if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==false&&xC3==true&&oA1==false&&oA2==false&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oA2").show(100);
+      oA2 = true;
+      }
+      //xB1 vertical loss middle
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==true&&xC1==true&&xC2==false&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xB1 diag loss
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==true&&xC1==true&&xC2==true&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==true){
+      $("#oA1").show(100);
+      oA1 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
    });
     
     
@@ -1500,6 +1575,25 @@ $(document).ready(function() {
       $("#lose").show(1000);
       window.setTimeout(resetAll,3000);
      }
+      //xB3 vertical loss middle
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==true&&xC1==false&&xC2==false&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xB3 diag loss 
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==true&&xC1==false&&xC2==true&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==true&&oC2==false&&oC3==false){
+      $("#oA3").show(100);
+      oA3 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xB3 and xC1 
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==false&&xC3==false&&oA1==false&&oA2==false&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oA2").show(100);
+      oA2 = true;
+      }
    });
     
     
@@ -1778,6 +1872,18 @@ $(document).ready(function() {
       $("#lose").show(1000);
       window.setTimeout(resetAll,3000);
        }
+      //xC1 vertical loss middle
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==false&&xC1==true&&xC2==false&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
+      //xB3 and xC1 
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==false&&xC3==false&&oA1==false&&oA2==false&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oA2").show(100);
+      oA2 = true;
+      }
    });
     
     
@@ -2067,6 +2173,16 @@ $(document).ready(function() {
          $("#draw").show(1000);
       window.setTimeout(resetAll,3000);
        }
+      //xC2 vertical block middle
+      if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==true&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC1").show(100);
+      oC1 = true;
+      }
+      //xC2 vertical block middle
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==true&&xC3==false&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC3").show(100);
+      oC3 = true;
+      }
     });
     
     
@@ -2379,6 +2495,18 @@ $(document).ready(function() {
       $("#oC1").show(100);
       oC1 = true;
        }
+      //B1 and C3
+      if(xA1==false&&xA2==false&&xA3==false&&xB1==true&&xB2==false&&xB3==false&&xC1==false&&xC2==false&&xC3==true&&oA1==false&&oA2==false&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oA2").show(100);
+      oA2 = true;
+      }
+      //xC3 vertical loss middle
+          if(xA1==false&&xA2==false&&xA3==false&&xB1==false&&xB2==false&&xB3==true&&xC1==true&&xC2==false&&xC3==true&&oA1==false&&oA2==true&&oA3==false&&oB1==false&&oB2==true&&oB3==false&&oC1==false&&oC2==false&&oC3==false){
+      $("#oC2").show(100);
+      oC2 = true;
+      $("#lose").show(1000);
+      window.setTimeout(resetAll,3000);
+      }
    });
     
   });
